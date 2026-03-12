@@ -31,13 +31,8 @@ export default function Login() {
     <div className="min-h-screen bg-background flex items-center justify-center px-4">
       <div className="w-full max-w-md space-y-8">
         {/* Logo */}
-        <div className="text-center space-y-2">
-          <div className="mx-auto w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg">
-            <span className="text-primary-foreground font-bold text-2xl">PD</span>
-          </div>
-          <h1 className="text-2xl font-bold text-foreground tracking-tight">
-            Precizna<span className="text-primary">Dijagnostika</span>
-          </h1>
+        <div className="text-center space-y-3">
+          <img src={logo} alt="PrecisionDiagnostics" className="mx-auto h-16" />
           <p className="text-muted-foreground text-sm">Slides Portal</p>
         </div>
 
